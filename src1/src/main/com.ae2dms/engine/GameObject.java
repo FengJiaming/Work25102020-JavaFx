@@ -1,4 +1,4 @@
-package main.com.ae2dms;
+package main.com.ae2dms.engine;
 
 public enum GameObject {
     WALL('W'),

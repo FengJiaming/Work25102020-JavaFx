@@ -18,6 +18,10 @@ import javafx.scene.text.TextAlignment;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import main.com.ae2dms.engine.GameEngine;
+import main.com.ae2dms.engine.GameObject;
+import main.com.ae2dms.engine.GraphicObject;
+import main.com.ae2dms.engine.Level;
 
 import java.awt.*;
 import java.io.File;

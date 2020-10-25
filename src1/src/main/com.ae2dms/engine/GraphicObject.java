@@ -1,4 +1,4 @@
-package main.com.ae2dms;
+package main.com.ae2dms.engine;
 
 import javafx.animation.FadeTransition;
 import javafx.animation.Timeline;
@@ -6,9 +6,11 @@ import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
+import main.com.ae2dms.engine.GameEngine;
+import main.com.ae2dms.engine.GameObject;
 
-class GraphicObject extends Rectangle {
-    GraphicObject(GameObject obj) {
+public class GraphicObject extends Rectangle {
+    public GraphicObject(GameObject obj) {
         Paint color;
         switch (obj) {
             case WALL:

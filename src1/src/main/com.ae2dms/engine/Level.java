@@ -1,4 +1,8 @@
-package main.com.ae2dms;
+package main.com.ae2dms.engine;
+
+import main.com.ae2dms.engine.GameEngine;
+import main.com.ae2dms.engine.GameGrid;
+import main.com.ae2dms.engine.GameObject;
 
 import java.awt.*;
 import java.util.Iterator;

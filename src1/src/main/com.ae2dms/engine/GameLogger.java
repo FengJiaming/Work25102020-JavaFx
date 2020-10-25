@@ -1,4 +1,6 @@
-package main.com.ae2dms;
+package main.com.ae2dms.engine;
+
+import main.com.ae2dms.engine.GameEngine;
 
 import java.io.File;
 import java.io.IOException;
