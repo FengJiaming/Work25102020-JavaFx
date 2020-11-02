@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="10.0" prefWidth="50.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="450.0" minWidth="10.0" prefWidth="450.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="50.0" minWidth="10.0" prefWidth="50.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="80.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="381.0" minHeight="10.0" prefHeight="280.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="381.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Label alignment="TOP_CENTER" text="Sokoban" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <TextArea disable="true" editable="false" opacity="0.9" prefHeight="200.0" prefWidth="200.0" text="Sokoban is a classic Japanese puzzle solving &#10;game in which you need to move all of the &#10;boxes into the correct locations. The boxes will &#10;be pushed in single directions by the character; &#10;meaning you can move them left, right, up or &#10;down through the keyboard. Think ahead&#10;before making your moves as you will quickly &#10;become stuck as the levels become more difficult." GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Label alignment="TOP_RIGHT" contentDisplay="RIGHT" prefHeight="24.0" prefWidth="384.0" text="Game created by XXX" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</GridPane>
